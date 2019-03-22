@@ -71,6 +71,50 @@ def convert_president():
             json.dump(states[k], outfile, sort_keys=True, indent=2)
 
 
+def convert_combined():
+    bodies = ['house', 'president', 'senate']
+    states = {'all': {}}
+    for body in bodies:
+        filename = '1976-2016-{}.csv'.format(body)
+        with open(filename) as csv_file:
+            csv_reader = csv.DictReader(csv_file)
+            for row in csv_reader:
+                po = row['state_po']
+                if po not in states:
+                    states[po] = {}
+                if row['year'] not in states['all']:
+                    states['all'][row['year']] = {}
+                    for p in ['D', 'R', 'I']:
+                        for b in bodies:
+                            pbk = '{} ({})'.format(p, b)
+                            states['all'][row['year']][pbk] = None
+                if row['year'] not in states[po]:
+                    states[po][row['year']] = {}
+                    for p in ['D', 'R', 'I']:
+                        for b in bodies:
+                            pbk = '{} ({})'.format(p, b)
+                            states[po][row['year']][pbk] = None
+                row_votes = int(row['candidatevotes'])
+                row_party = 'I'
+                if row['party'] in party_aliases['D']:
+                    row_party = 'D'
+                if row['party'] in party_aliases['R']:
+                    row_party = 'R'
+                row_pbk = '{} ({})'.format(row_party, body)
+                if states['all'][row['year']][row_pbk] is None:
+                    states['all'][row['year']][row_pbk] = row_votes
+                else:
+                    states['all'][row['year']][row_pbk] += row_votes
+                if states[po][row['year']][row_pbk] is None:
+                    states[po][row['year']][row_pbk] = row_votes
+                else:
+                    states[po][row['year']][row_pbk] += row_votes
+    for k in states.keys():
+        with open('combined/{}.json'.format(k), 'w') as outfile:
+            json.dump(states[k], outfile, sort_keys=True, indent=2)
+
+
 if __name__ == '__main__':
-    # convert_house()
+    convert_house()
     convert_president()
+    convert_combined()

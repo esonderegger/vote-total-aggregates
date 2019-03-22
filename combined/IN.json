@@ -1,0 +1,233 @@
+{
+  "1976": {
+    "D (house)": 1166368, 
+    "D (president)": 1014714, 
+    "D (senate)": 868522, 
+    "I (house)": 4818, 
+    "I (president)": 21690, 
+    "I (senate)": 16832, 
+    "R (house)": 932002, 
+    "R (president)": 1183958, 
+    "R (senate)": 1275833
+  }, 
+  "1978": {
+    "D (house)": 751940, 
+    "D (president)": null, 
+    "D (senate)": null, 
+    "I (house)": 16410, 
+    "I (president)": null, 
+    "I (senate)": null, 
+    "R (house)": 680513, 
+    "R (president)": null, 
+    "R (senate)": null
+  }, 
+  "1980": {
+    "D (house)": 1087722, 
+    "D (president)": 844197, 
+    "D (senate)": 1015962, 
+    "I (house)": 2354, 
+    "I (president)": 142180, 
+    "I (senate)": null, 
+    "R (house)": 1100711, 
+    "R (president)": 1255656, 
+    "R (senate)": 1182414
+  }, 
+  "1982": {
+    "D (house)": 882378, 
+    "D (president)": null, 
+    "D (senate)": 828400, 
+    "I (house)": 3951, 
+    "I (president)": null, 
+    "I (senate)": 10586, 
+    "R (house)": 909691, 
+    "R (president)": null, 
+    "R (senate)": 978301
+  }, 
+  "1984": {
+    "D (house)": 1022451, 
+    "D (president)": 841481, 
+    "D (senate)": null, 
+    "I (house)": 11229, 
+    "I (president)": 14358, 
+    "I (senate)": null, 
+    "R (house)": 1146656, 
+    "R (president)": 1377230, 
+    "R (senate)": null
+  }, 
+  "1986": {
+    "D (house)": 788419, 
+    "D (president)": null, 
+    "D (senate)": 595192, 
+    "I (house)": 10953, 
+    "I (president)": null, 
+    "I (senate)": 14228, 
+    "R (house)": 756135, 
+    "R (president)": null, 
+    "R (senate)": 936143
+  }, 
+  "1988": {
+    "D (house)": 1096834, 
+    "D (president)": 860643, 
+    "D (senate)": 668778, 
+    "I (house)": null, 
+    "I (president)": 10215, 
+    "I (senate)": null, 
+    "R (house)": 1023124, 
+    "R (president)": 1297763, 
+    "R (senate)": 1430525
+  }, 
+  "1990": {
+    "D (house)": 830500, 
+    "D (president)": null, 
+    "D (senate)": 696639, 
+    "I (house)": null, 
+    "I (president)": null, 
+    "I (senate)": null, 
+    "R (house)": 682593, 
+    "R (president)": null, 
+    "R (senate)": 806048
+  }, 
+  "1992": {
+    "D (house)": 1205869, 
+    "D (president)": 848420, 
+    "D (senate)": 900148, 
+    "I (house)": 14773, 
+    "I (president)": 468076, 
+    "I (senate)": 43306, 
+    "R (house)": 998334, 
+    "R (president)": 989375, 
+    "R (senate)": 1267972
+  }, 
+  "1994": {
+    "D (house)": 667454, 
+    "D (president)": null, 
+    "D (senate)": 470799, 
+    "I (house)": 3403, 
+    "I (president)": null, 
+    "I (senate)": 33144, 
+    "R (house)": 875082, 
+    "R (president)": null, 
+    "R (senate)": 1039625
+  }, 
+  "1996": {
+    "D (house)": 930919, 
+    "D (president)": 887424, 
+    "D (senate)": null, 
+    "I (house)": 59092, 
+    "I (president)": 241314, 
+    "I (senate)": null, 
+    "R (house)": 1109066, 
+    "R (president)": 1006693, 
+    "R (senate)": null
+  }, 
+  "1998": {
+    "D (house)": 673322, 
+    "D (president)": null, 
+    "D (senate)": 1012244, 
+    "I (house)": 101639, 
+    "I (president)": null, 
+    "I (senate)": 23641, 
+    "R (house)": 800910, 
+    "R (president)": null, 
+    "R (senate)": 552732
+  }, 
+  "2000": {
+    "D (house)": 953167, 
+    "D (president)": 901980, 
+    "D (senate)": 683273, 
+    "I (house)": 63023, 
+    "I (president)": 51486, 
+    "I (senate)": 33992, 
+    "R (house)": 1140554, 
+    "R (president)": 1245836, 
+    "R (senate)": 1427944
+  }, 
+  "2002": {
+    "D (house)": 640568, 
+    "D (president)": null, 
+    "D (senate)": null, 
+    "I (house)": 40091, 
+    "I (president)": null, 
+    "I (senate)": null, 
+    "R (house)": 840694, 
+    "R (president)": null, 
+    "R (senate)": null
+  }, 
+  "2004": {
+    "D (house)": 999082, 
+    "D (president)": 969011, 
+    "D (senate)": 1496976, 
+    "I (house)": 35470, 
+    "I (president)": 19553, 
+    "I (senate)": 27344, 
+    "R (house)": 1381699, 
+    "R (president)": 1479438, 
+    "R (senate)": 903913
+  }, 
+  "2006": {
+    "D (house)": 812496, 
+    "D (president)": null, 
+    "D (senate)": null, 
+    "I (house)": 22608, 
+    "I (president)": null, 
+    "I (senate)": 169558, 
+    "R (house)": 831818, 
+    "R (president)": null, 
+    "R (senate)": 1171553
+  }, 
+  "2008": {
+    "D (house)": 1388963, 
+    "D (president)": 1374039, 
+    "D (senate)": null, 
+    "I (house)": 47306, 
+    "I (president)": 31367, 
+    "I (senate)": null, 
+    "R (house)": 1240581, 
+    "R (president)": 1345648, 
+    "R (senate)": null
+  }, 
+  "2010": {
+    "D (house)": 679462, 
+    "D (president)": null, 
+    "D (senate)": 697775, 
+    "I (house)": 95587, 
+    "I (president)": null, 
+    "I (senate)": 94590, 
+    "R (house)": 972671, 
+    "R (president)": null, 
+    "R (senate)": 952116
+  }, 
+  "2012": {
+    "D (house)": 1142554, 
+    "D (president)": 1152887, 
+    "D (senate)": 1281181, 
+    "I (house)": 59432, 
+    "I (president)": 51104, 
+    "I (senate)": 145300, 
+    "R (house)": 1351760, 
+    "R (president)": 1420543, 
+    "R (senate)": 1133621
+  }, 
+  "2014": {
+    "D (house)": 502104, 
+    "D (president)": null, 
+    "D (senate)": null, 
+    "I (house)": 50948, 
+    "I (president)": null, 
+    "I (senate)": null, 
+    "R (house)": 788762, 
+    "R (president)": null, 
+    "R (senate)": null
+  }, 
+  "2016": {
+    "D (house)": 1052901, 
+    "D (president)": 1033126, 
+    "D (senate)": 1158947, 
+    "I (house)": 162477, 
+    "I (president)": 144546, 
+    "I (senate)": 149608, 
+    "R (house)": 1442989, 
+    "R (president)": 1557286, 
+    "R (senate)": 1423991
+  }
+}
